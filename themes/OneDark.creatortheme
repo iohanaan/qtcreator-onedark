@@ -168,6 +168,7 @@ Welcome_ButtonBackgroundColor=normalBackground
 Welcome_DividerColor=splitter
 Welcome_HoverColor=hoverBackground
 Welcome_LinkColor=textColorLink
+Welcome_DisabledLinkColor=textDisabled
 
 Timeline_TextColor=text
 Timeline_BackgroundColor1=normalBackground
@@ -182,7 +183,7 @@ Timeline_RangeColor=selectedBackground
 VcsBase_FileStatusUnknown_TextColor=text
 VcsBase_FileAdded_TextColor=ff00ff00
 VcsBase_FileModified_TextColor=ff8ee0ff
-VcsBase_FileDeleted_TextColor=fffff6c6c
+VcsBase_FileDeleted_TextColor=ffff6c6c
 VcsBase_FileRenamed_TextColor=ffffa500
 VcsBase_FileUnmerged_TextColor=ffff4040
 
@@ -197,10 +198,8 @@ ProjectExplorer_TaskWarn_TextMarkColor=warning
 ClangCodeModel_Error_TextMarkColor=error
 ClangCodeModel_Warning_TextMarkColor=warning
 
-QmlDesigner_BackgroundColor=normalBackground
-QmlDesigner_HighlightColor=ff3f91c4
-QmlDesigner_FormEditorSelectionColor=ff4ba2ff
-QmlDesigner_FormEditorForegroundColor=text
+CodeModel_Error_TextMarkColor=error
+CodeModel_Warning_TextMarkColor=warning
 
 PaletteWindow=shadowBackground
 PaletteWindowText=text
@@ -222,6 +221,11 @@ PaletteWindowDisabled=backgroundColorDisabled
 PaletteWindowTextDisabled=textDisabled
 PaletteBaseDisabled=backgroundColorDisabled
 PaletteTextDisabled=textDisabled
+
+QmlDesigner_BackgroundColor=normalBackground
+QmlDesigner_HighlightColor=ff3f91c4
+QmlDesigner_FormEditorSelectionColor=ff4ba2ff
+QmlDesigner_FormEditorForegroundColor=text
 
 [Flags]
 ComboBoxDrawTextShadow=false

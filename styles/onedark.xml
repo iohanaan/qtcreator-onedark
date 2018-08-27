@@ -6,14 +6,14 @@
   <style name="LineNumber" foreground="#5c6370"/>
   <style name="SearchResult" background="#314365"/>
   <style name="SearchScope" background="#268bd2"/>
-  <style name="Parentheses" background="#3e4451" bold="true"/>
+  <style name="Parentheses" bold="true" underlineColor="#61afef" underlineStyle="SingleUnderline"/>
   <style name="ParenthesesMismatch" foreground="#000000" background="#c678dd"/>
   <style name="AutoComplete" background="#3e4451"/>
   <style name="CurrentLine" background="#323742"/>
   <style name="CurrentLineNumber" foreground="#828997"/>
   <style name="Occurrences" background="#314365"/>
-  <style name="Occurrences.Unused" foreground="#719e07"/>
-  <style name="Occurrences.Rename" background="#ff5370"/>
+  <style name="Occurrences.Unused" underlineColor="#e5c07b" underlineStyle="DashUnderline"/>
+  <style name="Occurrences.Rename" background="#e06c75"/>
   <style name="Number" foreground="#61afef"/>
   <style name="String" foreground="#98c379"/>
   <style name="Type" foreground="#61afef"/>
@@ -26,6 +26,7 @@
   <style name="Keyword" foreground="#c678dd"/>
   <style name="PrimitiveType" foreground="#c678dd"/>
   <style name="Operator"/>
+  <style name="Overloaded Operator"/>
   <style name="Preprocessor" foreground="#c678dd"/>
   <style name="Label" foreground="#e06c75" bold="true"/>
   <style name="Comment" foreground="#828997" italic="true"/>
@@ -48,17 +49,18 @@
   <style name="RemovedLine" foreground="#e06c75"/>
   <style name="DiffFile" foreground="#61afef"/>
   <style name="DiffLocation" foreground="#e5c07b"/>
-  <style name="DiffFileLine" background="#ffff00"/>
-  <style name="DiffContextLine" background="#afd7e7"/>
-  <style name="DiffSourceLine" background="#ffdfdf"/>
-  <style name="DiffSourceChar" background="#ffafaf"/>
-  <style name="DiffDestLine" background="#dfffdf"/>
-  <style name="DiffDestChar" background="#afffaf"/>
+  <style name="DiffFileLine" foreground="#000000" background="#ffff00"/>
+  <style name="DiffContextLine" foreground="#000000" background="#afd7e7"/>
+  <style name="DiffSourceLine" foreground="#000000" background="#ffafaf"/>
+  <style name="DiffSourceChar" foreground="#000000" background="#e06c75"/>
+  <style name="DiffDestLine" foreground="#000000" background="#afffaf"/>
+  <style name="DiffDestChar" foreground="#000000" background="#98c379"/>
   <style name="LogChangeLine" foreground="#e06c75"/>
   <style name="Warning" underlineColor="#e5c07b" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#e5c07b" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff5370" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#ff5370" underlineStyle="DotLine"/>
-  <style name="Declaration" foreground="#000000" background="#ffffff"/>
-  <style name="OutputArgument" foreground="#000000" background="#ffffff" italic="true"/>
+  <style name="Declaration"/>
+  <style name="FunctionDefinition"/>
+  <style name="OutputArgument" italic="true"/>
 </style-scheme>
