@@ -2,7 +2,7 @@
 <style-scheme version="1.0" name="One Dark">
   <style name="Text" foreground="#abb2bf" background="#282c34"/>
   <style name="Link" underlineStyle="SingleUnderline"/>
-  <style name="Selection" background="#3e4451"/>
+  <style name="Selection" background="#3a3f4b"/>
   <style name="LineNumber" foreground="#5c6370"/>
   <style name="SearchResult" background="#314365"/>
   <style name="SearchScope" background="#268bd2"/>
@@ -14,7 +14,7 @@
   <style name="Occurrences" background="#314365"/>
   <style name="Occurrences.Unused" underlineColor="#e5c07b" underlineStyle="DashUnderline"/>
   <style name="Occurrences.Rename" background="#e06c75"/>
-  <style name="Number" foreground="#61afef"/>
+  <style name="Number" foreground="#d19a66"/>
   <style name="String" foreground="#98c379"/>
   <style name="Type" foreground="#61afef"/>
   <style name="Local"/>
@@ -40,15 +40,15 @@
   <style name="QmlScopeObjectProperty" foreground="#61afef"/>
   <style name="QmlExternalObjectProperty"/>
   <style name="JsScopeVar"/>
-  <style name="JsImportVar" foreground="#e5c07b"/>
-  <style name="JsGlobalVar" foreground="#e5c07b"/>
+  <style name="JsImportVar" foreground="#d19a66"/>
+  <style name="JsGlobalVar" foreground="#d19a66"/>
   <style name="QmlStateName" foreground="#61afef"/>
   <style name="Binding" foreground="#c678dd"/>
   <style name="DisabledCode" foreground="#828997" background="#323742" italic="true"/>
   <style name="AddedLine" foreground="#98c379"/>
   <style name="RemovedLine" foreground="#e06c75"/>
   <style name="DiffFile" foreground="#61afef"/>
-  <style name="DiffLocation" foreground="#e5c07b"/>
+  <style name="DiffLocation" foreground="#d19a66"/>
   <style name="DiffFileLine" foreground="#000000" background="#ffff00"/>
   <style name="DiffContextLine" foreground="#000000" background="#afd7e7"/>
   <style name="DiffSourceLine" foreground="#000000" background="#ffafaf"/>
@@ -63,4 +63,5 @@
   <style name="Declaration"/>
   <style name="FunctionDefinition"/>
   <style name="OutputArgument" italic="true"/>
+  <style name="LastStyleSentinel"/>
 </style-scheme>
