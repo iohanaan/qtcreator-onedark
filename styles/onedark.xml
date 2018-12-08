@@ -10,7 +10,7 @@
   <style name="ParenthesesMismatch" foreground="#000000" background="#c678dd"/>
   <style name="AutoComplete" background="#3e4451"/>
   <style name="CurrentLine" background="#323742"/>
-  <style name="CurrentLineNumber" foreground="#828997"/>
+  <style name="CurrentLineNumber" foreground="#828997" background="#31363f"/>
   <style name="Occurrences" background="#314365"/>
   <style name="Occurrences.Unused" underlineColor="#e5c07b" underlineStyle="DashUnderline"/>
   <style name="Occurrences.Rename" background="#e06c75"/>

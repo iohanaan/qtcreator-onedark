@@ -34,7 +34,7 @@ BadgeLabelBackgroundColorChecked=ffe0e0e0
 BadgeLabelBackgroundColorUnchecked=ff808080
 BadgeLabelTextColorChecked=ff606060
 BadgeLabelTextColorUnchecked=ffffffff
-CanceledSearchTextColor=ff000000
+CanceledSearchTextColor=ff0000
 ComboBoxArrowColor=toolBarItem
 ComboBoxArrowColorDisabled=toolBarItemDisabled
 ComboBoxTextColor=fancyBarsNormalTextColor
@@ -201,6 +201,20 @@ ClangCodeModel_Warning_TextMarkColor=warning
 CodeModel_Error_TextMarkColor=error
 CodeModel_Warning_TextMarkColor=warning
 
+QmlDesigner_BackgroundColor=normalBackground
+QmlDesigner_HighlightColor=ff3f91c4
+QmlDesigner_FormEditorSelectionColor=ff4ba2ff
+QmlDesigner_FormEditorForegroundColor=text
+QmlDesigner_BackgroundColorDarkAlternate=shadowBackground
+QmlDesigner_BackgroundColorDarker=ff262728
+QmlDesigner_BorderColor=splitter
+QmlDesigner_ButtonColor=normalBackground
+QmlDesigner_TabDark=shadowBackground
+QmlDesigner_TabLight=text
+QmlDesigner_FormeditorBackgroundColor=normalBackground
+QmlDesigner_AlternateBackgroundColor=alternateBackground
+QmlDesigner_ScrollBarHandleColor=ff595b5c
+
 PaletteWindow=shadowBackground
 PaletteWindowText=text
 PaletteBase=normalBackground
@@ -222,11 +236,6 @@ PaletteWindowTextDisabled=textDisabled
 PaletteBaseDisabled=backgroundColorDisabled
 PaletteTextDisabled=textDisabled
 
-QmlDesigner_BackgroundColor=normalBackground
-QmlDesigner_HighlightColor=ff3f91c4
-QmlDesigner_FormEditorSelectionColor=ff4ba2ff
-QmlDesigner_FormEditorForegroundColor=text
-
 [Flags]
 ComboBoxDrawTextShadow=false
 DerivePaletteFromTheme=true
@@ -242,6 +251,7 @@ FlatProjectsMode=true
 FlatMenuBar=true
 ToolBarIconShadow=true
 WindowColorAsBase=false
+DarkUserInterface=true
 
 [Gradients]
 DetailsWidgetHeaderGradient\1\color=normalBackground
