@@ -6,8 +6,9 @@ Qt Creator One Dark style theme and syntax color theme
 ## Install
 #### Theme
 
-Copy the `themes/OneDark.creatortheme` file into the styles directory:
+Copy the `themes/OneDark.creatortheme` file into the themes directory:
 ```bash
+mkdir $HOME/.config/QtProject/qtcreator/themes
 $ cp themes/OneDark.creatortheme $HOME/.config/QtProject/qtcreator/themes
 ```
 
@@ -19,6 +20,7 @@ Restart Qt Creator.
 
 Copy the `styles/onedark.xml` file into the styles directory:
 ```bash
+mkdir $HOME/.config/QtProject/qtcreator/styles
 $ cp styles/onedark.xml $HOME/.config/QtProject/qtcreator/styles
 ```
 
