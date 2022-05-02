@@ -30,10 +30,10 @@ backgroundColorDisabled=ff21252b
 ;DS controls theme START
 DSpanelBackground=normalBackground
 
-DSwelcomeScreenBackground=ff242424
-DSsubPanelBackground=ff1c1c1c
-DSthumbnailBackground=ff232323
-DSthumbnailLabelBackground=ff2b2a2a
+DSwelcomeScreenBackground=normalBackground
+DSsubPanelBackground=shadowBackground
+DSthumbnailBackground=normalBackground
+DSthumbnailLabelBackground=shadowBackground
 
 DSgreenLight=success
 DSamberLight=message
@@ -388,7 +388,7 @@ PaletteWindowDisabled=backgroundColorDisabled
 PaletteWindowTextDisabled=textDisabled
 PaletteBaseDisabled=backgroundColorDisabled
 PaletteTextDisabled=textDisabled
-PaletteMid=ffa0a0a0
+PaletteMid=text
 PalettePlaceholderText=textDisabled
 
 [Flags]
