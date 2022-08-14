@@ -7,6 +7,7 @@
   <style name="SearchResult" background="#324365"/>
   <style name="SearchResultAlt1" foreground="#000033" background="#b6ccff"/>
   <style name="SearchResultAlt2" foreground="#330000" background="#ffb6cc"/>
+  <style name="SearchResultContainingFunction" background="#3e4451"/>
   <style name="SearchScope" background="#3e4451"/>
   <style name="Parentheses" foreground="#abb2bf" background="#282c34" underlineColor="#61afef" underlineStyle="SingleUnderline"/>
   <style name="ParenthesesMismatch" foreground="#282c34" background="#c678dd"/>
@@ -19,6 +20,7 @@
   <style name="Number" foreground="#d19a66"/>
   <style name="String" foreground="#98c379"/>
   <style name="Type" foreground="#61afef"/>
+  <style name="Namespace" foreground="#61afef"/>
   <style name="Local"/>
   <style name="Parameter"/>
   <style name="Global"/>
@@ -32,6 +34,7 @@
   <style name="Overloaded Operator" foreground="#c678dd"/>
   <style name="Punctuation"/>
   <style name="Preprocessor" foreground="#c678dd"/>
+  <style name="Macro" foreground="#61afef"/>
   <style name="Label" foreground="#e06c75" bold="true"/>
   <style name="Comment" foreground="#5c6370" italic="true"/>
   <style name="Doxygen.Comment" foreground="#5c6370" italic="true"/>
@@ -72,5 +75,16 @@
   <style name="Declaration"/>
   <style name="FunctionDefinition"/>
   <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember"/>
+  <style name="CocoCodeAdded"/>
+  <style name="CocoPartiallyCovered" foreground="#d19a66"/>
+  <style name="CocoNotCovered" foreground="#e06c75"/>
+  <style name="CocoFullyCovered" foreground="#98c379"/>
+  <style name="CocoManuallyValidated" foreground="#61afef"/>
+  <style name="CocoDeadCode" foreground="#c678dd"/>
+  <style name="CocoExecutionCountTooLow" foreground="#e06c75"/>
+  <style name="CocoNotCoveredInfo" foreground="#e06c75"/>
+  <style name="CocoCoveredInfo" foreground="#98c379"/>
+  <style name="CocoManuallyValidatedInfo" foreground="#61afef"/>
   <style name="LastStyleSentinel"/>
 </style-scheme>
