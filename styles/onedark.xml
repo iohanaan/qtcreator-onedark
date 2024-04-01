@@ -20,6 +20,7 @@
   <style name="Number" foreground="#d19a66"/>
   <style name="String" foreground="#98c379"/>
   <style name="Type" foreground="#61afef"/>
+  <style name="Concept" foreground="#61afef"/>
   <style name="Namespace" foreground="#61afef"/>
   <style name="Local"/>
   <style name="Parameter"/>
