@@ -26,9 +26,15 @@ splitter=ff181a1f
 textColorLink=ff61afef
 textColorLinkVisited=ffc678dd
 backgroundColorDisabled=ff21252b
+scrollHandle=ff4b5362
 
 [Colors]
 ;DS controls theme START
+DScontrolBackground_toolbarIdle=shadowBackground
+DScontrolBackground_toolbarHover=hoverBackground
+DScontrolBackground_topToolbarHover=hoverBackground
+DScontrolOutline_topToolbarIdle=splitter
+DScontrolOutline_topToolbarHover=splitter
 DSpanelBackground=normalBackground
 
 DSwelcomeScreenBackground=normalBackground
@@ -85,14 +91,14 @@ DSsliderActiveTrackFocus=ffaaaaaa
 DSsliderInactiveTrack=alternateBackground
 DSsliderInactiveTrackHover=ff505050
 DSsliderInactiveTrackFocus=ff7a7a7a
-DSsliderHandle=ff4b5362
+DSsliderHandle=scrollHandle
 DSsliderHandleHover=ff7a7a7a
 DSsliderHandleFocus=ff1d545c
-DSsliderHandleInteraction=ff4b5362
+DSsliderHandleInteraction=scrollHandle
 
 DSscrollBarTrack=normalBackground
-DSscrollBarHandle=ff4b5362
-DSscrollBarHandle_idle=ff4b5362
+DSscrollBarHandle=scrollHandle
+DSscrollBarHandle_idle=scrollHandle
 
 DSsectionHeadBackground=alternateBackground
 
@@ -327,7 +333,7 @@ Timeline_DividerColor=splitter
 Timeline_HighlightColor=selectedBackground
 Timeline_PanelBackgroundColor=alternateBackground
 Timeline_PanelHeaderColor=normalBackground
-Timeline_HandleColor=ff4b5362
+Timeline_HandleColor=scrollHandle
 Timeline_RangeColor=selectedBackground
 
 VcsBase_FileStatusUnknown_TextColor=text
@@ -360,7 +366,7 @@ QmlDesigner_TabDark=shadowBackground
 QmlDesigner_TabLight=text
 QmlDesigner_FormeditorBackgroundColor=normalBackground
 QmlDesigner_AlternateBackgroundColor=alternateBackground
-QmlDesigner_ScrollBarHandleColor=ff4b5362
+QmlDesigner_ScrollBarHandleColor=scrollHandle
 
 PaletteWindow=shadowBackground
 PaletteWindowText=text
